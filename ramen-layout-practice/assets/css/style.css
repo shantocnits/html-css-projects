@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1420px;
+    margin: auto;
+}
+.top-container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* top-bar section start................... */
+
+#top-bar{ 
+    background-color: rgb(19, 19, 19);
+    height: 75px;
+}
+.top-menu{
+    display: flex;
+}
+
+.top-item{
+    width: 33.33%;
+    display: flex;
+}
+.top-item h1{
+    font-family: julee,cursive;
+    margin-top: 9px; 
+    color: white;  
+}
+.top-item p{
+    color: rgb(175, 149, 149);   
+}
+.top-icon{
+    width: 33.33%;
+    margin-left: 610px;
+}
+.top-icon i{
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+.top-icon i:hover{
+    color: #da0000!important;  
+}
+.top-item i{
+    font-size: 30px;
+    margin-top: 20px;   
+    margin-right: 20px;
+}
+
+
+/* top-bar section end................... */
+/* navbar section start .................*/
+
+#navbar{
+    height: 140px;
+}
+.navbar-sec{
+    display: flex;
+}
+.navbar-logo{
+    width: 30%;
+    margin-top: 10px;
+}
+.navbar-logo img{
+    width: 165px;
+    height: 120px;
+}
+.navbar-item{
+    width: 70%;   
+}
+.navbar-item ul{
+    margin-top: 55px;
+    list-style: none;
+    display: flex;
+    float: right;
+}
+.navbar-item ul li a{
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+}
+.navbar-item ul li i{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.navbar-item ul li a:hover{
+    color: #da0000;
+}
+
+/* navbar section end ................*/
+/* hero top sec sart.................. */
+
+#hero-top{
+    background-image: url(..//img/slide3.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.Exquisite{
+    text-align: center;
+}
+.Exquisite h3{
+    color: rgb(248, 178, 0);
+    font-size: 30px;
+    font-family:'Bellefair', serif;
+    padding-top: 200px;  
+}
+.Exquisite h1{
+    color: white;
+    font-family: julee,cursive;
+    font-size: 100px;
+    padding-top: 50px;
+}
+.Exquisite p{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Exquisite img{
+    width: 90px;
+    height: 70px
+}
+.arrow{
+    height: 20px;
+    width: 30px;
+}
+
+/* hero top sec end.................. */
+/* hero discover sec start ...........*/
+
+#hero-discover{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    height: 900px;    
+}
+.discover{
+    background-color: aliceblue;
+    display: flex;
+    height: 683px;
+    width: 100%;
+    padding-top: 80px;
+}
+.text{
+    font-size: 25px;
+    width: 50%;  
+}
+.text h3{
+    font-family:'Bellefair', serif;
+    margin-top: 70px;
+    color: rgb(216, 185, 98);
+}
+.text h1{
+    font-size: 50px;
+    font-family: julee,cursive;
+}
+.text p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text h2{
+    color: rgb(216, 185, 98);
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: julee,cursive;
+}
+.text img{
+    width: 90px;
+    height: 70px;
+}
+.img{
+   
+    width: 50%;
+}
+.img-one img{
+    margin-top: 80px;
+    margin-left: 70px;
+    height: 350px;
+    width: 527px;
+}
+.img-two img{
+    border: 5px solid rgb(255, 255, 255);
+    height: 350px;
+    width: 527px;
+    margin-left: 183px;
+    margin-top: -120px;
+}
+
+/* hero discover sec end ...........*/
+/* hero view sec start ............*/
+
+#hero-view-menu{
+    background-image: url(..//img/img3.jpg);
+    width: 100%;
+    height: 730px;
+    background-size: cover;
+}
+.view-menu{
+    text-align: center;
+}
+.view-menu h4{
+    color:  rgb(216, 185, 98);
+    font-size: 30px;
+    padding-top: 250px;
+    font-family:'Bellefair', serif;
+}
+.view-menu h1{
+    margin-top: 0px;
+    font-family: julee,cursive;
+    font-size: 50px;
+    color: white;
+}
+.view-menu img{
+    width: 90px;
+    height: 60px;
+    margin-top: 20px;
+}
+.view-menu button{
+    padding: 30px 50px;
+    margin-top: 30px;
+    background-color: #da0000;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* hero view sec end ............*/
+/* hero popular menu start ...........*/
+
+#hero-popular{
+    height: 1250px;
+    background-color: rgb(202, 202, 202);
+}
+.popular{
+    display: flex;
+}
+.menu-img{
+    display: flex;
+}
+.menu-img{
+    width: 50%;
+}
+.menu-text{
+    width: 50%;
+}
+.img-1{
+    padding-top: 250px;  
+    width: 50%;
+}
+.img-2{
+    width: 50%;
+    padding-top: 150px;
+}
+.img-1 img{
+    margin-top: 30px;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+}
+.img-2 img{
+    width: 300px;
+    height: 400px;
+    margin-top: 30px;
+    border: 5px solid white;
+}
+.menu-text{
+    margin-top: 280px;
+}
+.writer-one h3{
+    color: rgb(216, 185, 98);
+    font-size: 30px;
+    font-family:'Bellefair', serif;
+}
+.writer-one h1{
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: julee,cursive;
+}
+.writer-one img{
+    width: 90px;
+    height: 70px;  
+}
+.writer span{
+    padding-bottom: 40px;
+}
+.writer h1{
+    margin-top: 8px;
+    font-size: 40x;
+    font-family:'Bellefair', serif;
+}
+.writer p{
+    padding-bottom: 45px;
+    padding-top: 8px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* hero popular menu end ...........*/
+/* hero Reservations start ...........*/
+
+#hero-Reservations{
+    background-image: url(..//img/slide2.jpg);
+    width: 100%;
+    height: 730px;
+    background-size: cover;
+}
+.Reservations-menu{
+    text-align: center;
+}
+.Reservations-menu h4{
+    color:  rgb(216, 185, 98);
+    font-size: 30px;
+    padding-top: 250px;
+    font-family:'Bellefair', serif;
+}
+.Reservations-menu h1{
+    margin-top: 0px;
+    font-family: julee,cursive;
+    font-size: 50px;
+    color: white;
+}
+.Reservations-menu img{
+    width: 90px;
+    height: 60px;
+    margin-top: 20px;
+}
+.Reservations-menu button{
+    padding: 30px 50px;
+    margin-top: 30px;
+    background-color: #da0000;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* hero Reservations end ...........*/
+/* hero testimonial start ............. */
+
+#hero-testimonial{
+    height: 900px;  
+}
+.testimonials-head{
+    text-align: center;
+}
+.testimonials-head h3{
+    color: rgb(216, 185, 98);
+    font-size: 30px;
+    font-family:'Bellefair', serif;
+    padding-top: 170px;
+}
+.testimonials-head h1{
+    font-family: julee,cursive;
+    font-size: 60px; 
+    padding-top: 25px;
+}
+.testimonials-head img{
+    width: 90px;
+    height: 60px;
+    margin-top: 20px;
+}
+.testimonials-prgph{
+    display: flex;
+}
+.prgph-text{
+    width: 50%;  
+}
+.prgph-text p{
+    font-size: 32px; 
+    margin-top: 20px;
+    font-family:'Bellefair', serif;
+}
+.prgph-text h3{
+    color: #da0000;
+    font-size: 40px; 
+    font-family:'Bellefair', serif;
+    margin-top: 20px; 
+}
+.prgph-text h4{
+    margin-top: 10px;  
+}
+.prgph-text i{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff700;  
+}
+
+/* hero testimonial end ............. */
+/* hero image sec start ............... */
+
+.image{
+    display: flex;
+}
+.image img{  
+    width: 100%;
+    height: 260px;
+    border: 2px solid white;
+}
+
+/* hero image sec end ............... */
+/* hero news section start............. */
+
+#hero-news{
+    background-color: rgb(212, 212, 212);
+    height: 1370px;
+}
+.news-head{
+    text-align: center;
+}
+.news-head h3{
+    font-size: 30px;
+    font-family:'Bellefair', serif;
+    color: rgb(233, 185, 52);
+    padding-top: 190px;
+}
+.news-head h1{
+    font-size: 55px;
+    padding-top: 20px;
+    font-family: julee,cursive;
+}
+.news-head img{
+    padding-top: 20px;
+    width: 90px;
+    height: 90px;
+}
+.news-cards{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: white;
+    height: 680px;
+    width: 430px;
+    border-radius: 10px;
+}
+.card-img img{
+    width: 430px;
+    height: 300px;
+    border-radius: 10px;
+}
+.card-text{
+    text-align: center;
+}  
+.card-text h1{
+    font-family: julee,cursive;   
+}
+.card-text p{
+    font-size: 25px;  
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.card-text a{
+    color: white;
+    font-size: 25px;
+    background-color: #da0000;
+    padding: 20px 30px;
+    text-decoration: none; 
+}
+.calendar{
+    margin-top: -55px;
+    margin-left: 350px; 
+}
+.calendar img{
+    width: 70px;
+    height: 70px;   
+}
+
+/* hero news section end............. */
+/* footer start....................... */
+
+#hero-footer{
+    background-image: url(..//img/footer.jpg);
+    height: 550px;  
+    background-size: cover;
+}
+.footer{
+    text-align: center;
+}
+.footer img{
+    margin-top: 100px;
+    width: 200px; 
+    height: 150px;
+}
+.footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;  
+}
+.footer-icon{
+    padding-top: 30px;
+    margin-left: 450px;
+    width: 33.33%;
+}
+.footer-icon i{ 
+    margin-left: 10px;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+}
+.footer-icon i:hover{
+    color: #da0000!important;  
+}
+
+/* footer end....................... */
+/* copyright start.................... */
+
+#hero-copyright{
+    background-color: rgb(19, 19, 19);
+    height: 100px;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* copyright end.................... */
+
+
+

@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+body{
+    font-family: Lato;
+}
+
+/*  Top navbar section start ...........................*/
+
+.container{
+    max-width: 1680px;
+    margin: auto;
+}
+#top-navbar{
+    background: rgb(255, 82, 3);
+}
+.top-navb{  
+    display: flex;
+    color: white;
+    padding: 25px;
+}
+.top-navb i{
+    color: #ffffff;
+    font-size: 23px; 
+    margin-top: 5px; 
+    margin-left: 5px;   
+}
+.top-navb p{
+    margin-left: 12px;
+}   
+.top-nav{
+    display: flex;
+    width: 50%;
+    font-size: 25px;  
+}
+.sec-nav{
+    display: flex;
+    width: 50%;
+    font-size: 25px;
+    margin-left: 430px;
+}
+.sec-nav i{
+    margin-left: 28px; 
+    border-radius: 10%px; 
+}
+.border{
+    border-right: 1px solid green;
+    margin-left: 35px;
+    margin-right: 23px;
+}
+
+/*  Top navbar section end  ...........................*/
+/* main navbar start ................................. */
+
+.navbar{
+    display: flex;
+    background-color:white;
+}
+.nav-logo{
+    width: 30%;
+    padding: 30px;
+   
+}
+.nav-item{
+    display: flex;
+    width: 70%; 
+    font-size: 25px;
+    padding: 52px;
+}
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    margin-left: 120px;
+}
+.nav-item ul a{
+    text-decoration: none;
+    margin-left: 55px;
+    color: black;
+}
+.nav-item i{
+    margin-left: 10px;
+}
+.nav-item ul li :hover{
+    color: #ec7347;
+}
+
+/* Main navbar section end ...........................*/
+/* hero section start ....................................*/
+
+#hero-top{
+    width: 100%;
+    height: 900px;
+    background-size: cover;  
+}
+#hero-top .text{
+    color: white;
+    font-size: 72px; 
+ 
+}
+.text h1{
+    padding-top: 180px;
+    padding-left: 20px;
+    
+ 
+}
+#hero-top .text p{
+    font-size: 22px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.container button{
+    padding: 25px 35px;
+    margin: 20px 20px;
+    font-size: 20px;
+    background: rgb(255, 82, 3);
+    color: white;
+}
+.button a :hover{
+    background:rgb(34, 34, 34);
+    border:none;
+
+}
+
+/* hero section card start ....................................*/
+
+.cards {
+    display: flex;
+    padding: 150px;
+    background-color:rgb(248, 248, 248);
+   
+  } 
+.card {
+    width: 20.33%;
+    height: 480px;
+    background-color: white;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding-top: 90px;
+    padding-left: 45px; 
+    margin-left: 70px;
+  }
+  .card i{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;  
+    background-color: rgb(255, 225, 225);
+    border-radius: 50%; 
+    color: #ff9500;
+    padding-left: 15px;
+    padding-top: 20px; 
+    
+  }
+.card h1{
+    margin-top: 40px;
+    font-size: 35px;  
+}
+.card p{
+    margin-top: 20px;
+    font-size: 22px; 
+}
+.cards :hover{
+    background-color: rgb(255, 82, 3);
+    color: #ffffff;
+}
+
+/* hero sec card end ..........................*/
+/* hero img section start ......................*/
+
+.hero-two{
+    display: flex;
+    height: 950px;  
+}
+.hero-two-img{
+    width: 50%;
+    margin-top: 140px;
+}
+.hero-two-img img{
+    height: 700px;
+    width: 700px;
+}
+.hero-two-text{
+    width: 50%;
+}
+.hero-two-text p {
+    margin-top: 140px;
+}
+.hero-two-text h1 {
+    margin-top: 20px;
+    font-size: 60px;
+}
+.hero-two-text h2 {
+    margin-top: 40px;
+    font-size: 30px;
+}
+.hero-two-logo{
+    display: flex;   
+}
+.logo-one{
+    display: flex;
+    width: 50%
+}
+.logo-one i{
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 82, 3);
+    color: white;
+    padding: 18px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.logo-one h2{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.hero-two-text h3{
+    padding-top: 40px;
+}
+.hero-two-text img{
+    margin-top: 70px;
+    height: 60px;
+}
+
+/* hero img section end .........................*/
+/* hero three cards start */
+
+#hero-comment{
+    background-size: cover;
+}
+.cards-three{
+    display: flex;
+    height: 407px; 
+}
+.card-one{
+    display: flex;
+    width: 33.33%;
+    height: 210px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 100px 15px;
+    padding-left: 1px;    
+}
+.card-one img{
+    margin-left: 75px;
+    margin-top: 45px;
+    width: 100px;
+    height: 100px;
+    color: #ff7645;
+}
+.card-one h1{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 80px;
+}
+.card-one p{
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+/* hero three cards sec end .....................*/
+/* hero service sec start ......................*/
+
+#hero-service{
+    background-color:rgb(228, 228, 228);
+}
+.services{
+    padding-bottom: 130px;
+    height: 1100px;
+    display: flex;    
+}
+.service-one{
+   
+    margin: auto;
+    width: 33.33;   
+}
+.service{
+    height: 778px;
+    background-color: #ffffff;
+}
+.service img{
+    width: 530px;
+}
+.service-head h4{
+    text-align: center;
+    font-size: 29px;
+    padding-top: 180px;  
+    padding-bottom: 20px;
+    
+}
+.service-head h1{
+    text-align: center;
+    font-size: 62px;   
+}
+.service-text img{
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.service-text h1{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.service-text h3{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(197, 177, 177);
+    line-height: 25px;
+}
+
+/* hero service sec end .................*/
+/* hero team sec start .................*/
+
+#hero-team{
+    background-color:#f7f8fa;
+}
+.teams{
+    padding-bottom: 130px;
+    height: 900px;
+    display: flex;    
+}
+.team-head h1{
+    text-align: center;
+    font-size: 62px;   
+}
+
+.team-one{ 
+    margin: auto;
+    width: 33.33; 
+     
+}
+.team-one i{ 
+    font-size: 25px; 
+    margin-left: 50px;
+    margin-top: 20px;
+     
+}
+.team{
+    border-radius: 10px;
+    height: 610px;
+    background-color: #e7e7e7;
+}
+.team img{
+    width: 370px;
+    border-radius: 10px;
+}
+
+.team-head h4{
+    text-align: center;
+    font-size: 29px;
+    padding-top: 180px;  
+    padding-bottom: 20px;
+    
+}
+.team-text p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/* hero team sec end .................*/
+/* hero skill sec start ..................*/
+
+#hero-skill{
+    background-color:rgb(228, 228, 228);
+}
+.skills{
+    padding-bottom: 130px;
+    height: 1000px;
+    display: flex;    
+}
+.skill-one{
+    margin-top: 80px;
+    width: 50%;
+    background: rgb(247, 248, 250);    
+}
+.img img{
+    width: 940px;
+    height: 790px;
+}
+.skill-head h4{
+    text-align: center;
+    font-size: 29px;
+    padding-top: 180px;  
+    padding-bottom: 20px;
+    
+}
+.skill-head h1{
+    text-align: center;
+    font-size: 62px;   
+}
+.skillpart-one{
+    display: flex;
+}
+.skillpart-one img{
+    height: 120px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left: 150px;
+    border-radius: 50%;
+    background-color: rgb(228, 228, 228);
+}
+.skillpart-one h1{
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.skillpart-one h3{
+    margin-top: 15px;
+    margin-left: 40px;
+    line-height: 25px;
+    color: rgb(150, 146, 146);
+}
+
+.progress {
+    width: 300px;
+    height: 10px;
+    background-color: orangered;
+    border-radius: 30px;
+    margin: 15px 0;
+}
+.progress-line{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.progress-line span{
+    font-size: 25px;
+}
+
+/* hero skill section end .................*/
+/* hero video sec start ................*/
+
+#hero-video{
+    background-size: cover;
+    display: flex;
+}
+.video img{
+    width: 120px;
+    height: 120px;
+    margin-top: 190px;
+    margin-left: 680px;
+    border-radius: 50%;
+}
+.video-text{
+    color: #ffffff;
+    margin-top: 170px;
+}
+.video-text h1{
+    font-size: 60px;
+    margin-left: 50px;
+}
+.video-text p{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.video :hover{
+    background-color: orangered;
+}
+
+/* hero video sec end ------------*/
+/* hero-industrial-sector start -- */
+
+.industrial-sector{
+    display: flex;  
+}
+.industrial-text{
+    width: 50%;
+}
+.industrial-text h1{
+    font-size: 60px;
+    margin-left: 320px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.industrial-text p{
+    font-size: 25px;
+    margin-left: 320px;
+    margin-top: 240px;
+}
+.industrial-text h2{
+    margin-left: 320px;
+    color: #a0a2a5;   
+}
+.industrial-text img{
+    margin-left: 110px;
+    height: 1000px;   
+}
+.industrial-img{
+    display: flex;
+    height: 100px;
+    width: 50%;
+    margin-left: -120px;
+}
+.industrial-img img{
+    height: 1050px;
+    width: 590px;
+    padding: 30px;
+    margin-top: 210px;
+} 
+
+ /* hero-industrial-sector end.................. */
+ /* hero testimonial start.................... */
+
+ #hero-testimonials{
+    background-size: cover;
+    height: 1000px;
+}
+.testimonials{
+    padding-bottom: 130px;
+    height: 680px;
+    display: flex;    
+}
+.testimonial{  
+    margin: auto;
+    width: 33.33;   
+}
+.testimonial-card{
+    border-radius: 20px;
+    height: 430px;
+    width: 500px;
+    background-color: rgb(24, 31, 41);
+}
+
+.testimonials-head h4{
+    text-align: center;
+    font-size: 29px;
+    padding-top: 110px;  
+    padding-bottom: 20px;
+    
+}
+.testimonials-head h1{
+    text-align: center;
+    font-size: 62px; 
+    color: #ffffff;  
+}
+.testimonial-card-text{
+    display: flex;
+}
+.testimonial-card img{
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 60px;
+
+}
+.testimonial-card-text h1{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 60px;
+    color: white;
+}
+.testimonial-card-text h3{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: orangered;
+    line-height: 25px;
+}
+.testimonial-card p{
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+  }
+  
+  .dots .dot {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    margin: 0 8px;
+  }
+  
+  .dots .dot.active {
+    background-color: orangered;
+  }
+/* hero testimonial end */
+/* hero blog start */
+#hero-blog{
+    background-color:rgb(228, 228, 228);
+}
+.blogs{
+    padding-bottom: 130px;
+    height: 822px;
+    display: flex;    
+}
+.blogs-one{
+   
+    margin: auto;
+    width: 33.33;   
+}
+.blog{
+    height: 663px;
+    background-color: #ffffff;
+    margin-top: 57px;
+}
+.blog img{
+    width: 530px;
+}
+.user-chat{
+    display: flex;
+}
+
+.user-chat img{
+    width: 25px;
+    height: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.user-border{
+    border-right: 1px solid rgb(145, 145, 145);
+    height: 25px;
+    margin-top: 30px;
+}
+.blog-head h4{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 100px;  
+    padding-bottom: 20px;
+    
+}
+.blog-head h1{
+    text-align: center;
+    font-size: 52px;   
+}
+
+.blog-text h1{
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.blog-text h3{
+    font-size: 19px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(87, 87, 87);
+    line-height: 25px;
+}
+
+/* hero blog sec end................... */
+/* hero brand start */
+
+#hero-brand{
+    height: 290px;
+   
+}
+.brand{
+    width: 20%;
+    display: flex;
+    margin-top: 70px;    
+}
+.patner img{
+    width: 340px;
+    height: 200px;
+}
+/* hero brand sec end */
+/* hero sec end */
+/* footer section start */
+#main-footer{
+    height: 650px;
+    background-color:rgb(21, 25, 36);
+}
+.footers{
+    margin-left: 20px; 
+    height: 500px;
+    display: flex;    
+}
+.footer-one{ 
+    margin-top: 100px;
+    width: 25%;     
+}
+.footer h1{
+    font-size: 30px;
+    color: #fff;
+}
+.footer i{
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left:-1px; 
+}  
+.footer h3{
+    font-size: 21px;
+    margin-top: 20px;
+    line-height: 35px;
+    color: #ffffff;
+}
+.link ul{
+    list-style: none;
+    font-size: 21px; 
+    line-height: 35px;   
+}
+.link ul li a{
+    text-decoration: none;
+    color: #ffffff; 
+}
+.link ul li :hover{
+    color: #ff7645;
+}
+.footer-gallery {
+    
+    padding-top: 30px;
+}
+.gallery img{
+    width: 130px;
+    border-radius: 10px;
+    
+}
+.copyright p{
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+/* footer end */
+
+
+
+
+
+
+
+
+  
